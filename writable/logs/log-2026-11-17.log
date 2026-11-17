@@ -1,0 +1,12 @@
+CRITICAL - 2026-11-17 08:54:17 --> ErrorException: Uncaught CodeIgniter\Exceptions\PageNotFoundException: Can't find a route for 'CLI: /'. in /home/rakuhatoru/Semester 5/PratikumPemmob/toko_api/system/CodeIgniter.php:1022
+Stack trace:
+#0 /home/rakuhatoru/Semester 5/PratikumPemmob/toko_api/system/CodeIgniter.php(1022): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 /home/rakuhatoru/Semester 5/PratikumPemmob/toko_api/system/CodeIgniter.php(367): CodeIgniter\CodeIgniter->display404errors()
+#2 /home/rakuhatoru/Semester 5/PratikumPemmob/toko_api/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#3 /home/rakuhatoru/Semester 5/PratikumPemmob/toko_api/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#4 Command line code(7): CodeIgniter\Boot::bootWeb()
+#5 {main}
+  thrown
+[Method: CLI, Route: /]
+in SYSTEMPATH/CodeIgniter.php on line 1022.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
